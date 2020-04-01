@@ -39,6 +39,8 @@ def insertionSort1(n, arr):
         while key<arr[j] and j>=0:
             arr[j+1]=arr[j]
             j-=1
+            print(*arr)
         arr[j+1]=key
-    print("arr: ", arr)
+    print(*arr)
+
 insertionSort1(5, [1, 3, 4, 5, 2])
