@@ -22,8 +22,8 @@ can you write some simple code to insert  into the array so that it remains sort
                                     to allow us moving up the list. we would repeat this step creating a duplicate
                                     of j at index len(arr)-(i+1) until there is nolonger a number that is less than the key.
         5. Trade-offs: Since we will be using two loops to keep track of where we are in the loop and find the right place
-                       for our element out time-complexity=> adds up to O(n)^2 and the only space we use to run our function
-                       is for key and j space-complexity: O(1)+O(1)~O(1)
+                       for our element out, printing also takes O(n) time-complexity=> adds up to O(n)^2+O(n) ~ O(n)^2 and
+                       the only space we use to run our function is for key and j space-complexity: O(1)+O(1)~O(1)
        6. Improvements: The question itself askes for a brute force solution; therefore I would stick with my solution
  # in
 """
