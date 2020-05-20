@@ -2,16 +2,15 @@ class Player:
     def __init__(self, name, score):
         self.name = name
         self.score = score
-    def __repr__(self):
-        return f"Player {self.name} has a score {self.score}"
     def comparator(a, b):
-        pass
-
-
-def quickSort():
-    divider = 0
-    pivot = 0
-    for i in range(arr):
-        pass
-def partition(arr):
-    pass
+            if a.score < b.score:
+                return 1
+            elif a.score == b.score:
+                if a.name.lower() == b.name.lower():
+                    return 0
+                elif a.name.lower() > b.name.lower():
+                    return 1
+                else:
+                    return -1
+            else:
+                return -1
